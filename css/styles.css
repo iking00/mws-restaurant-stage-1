@@ -277,3 +277,11 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+/* ====================== Restaurant Details ====================== */
+@media screen and (min-width: 1200px) {
+
+  #maincontent {
+    width: 1200px;
+  }
+
+}
