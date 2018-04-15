@@ -100,7 +100,7 @@ nav h1 a {
 }
 /* ====================== Map ====================== */
 #map {
-  height: 400px;
+  height: 300px;
   width: 100%;
   background-color: #ccc;
 }
@@ -290,6 +290,10 @@ nav h1 a {
   .filter-options select {
     font-size: 11pt;
     width: 200px;
+  }
+
+  #map {
+    height: 400px;
   }
 
 }
