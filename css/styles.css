@@ -122,12 +122,12 @@ nav h1 a {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
-  font-size: 11pt;
+  font-size: 9pt;
   height: 35px;
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+  width: 150px;
 }
 
 /* ====================== Restaurant Listing ====================== */
@@ -282,6 +282,14 @@ nav h1 a {
 
   #maincontent {
     width: 1200px;
+  }
+
+}
+@media screen and (min-width: 500px) {
+
+  .filter-options select {
+    font-size: 11pt;
+    width: 200px;
   }
 
 }
