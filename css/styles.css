@@ -58,8 +58,6 @@ nav {
 }
 nav h1 {
   margin: auto;
-}
-nav h1 a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
@@ -129,7 +127,9 @@ nav h1 a {
   padding: 0 10px;
   width: 150px;
 }
-
+.filter-options select:focus {
+  border: 2px solid #FFC107;
+}
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -159,7 +159,7 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li .restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
