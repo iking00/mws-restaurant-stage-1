@@ -3,7 +3,14 @@ let restaurants,
   cuisines
 var map
 var markers = []
-
+/**
+ * Register Service Worker
+ */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/js/sw/index.js');
+  });
+}
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
