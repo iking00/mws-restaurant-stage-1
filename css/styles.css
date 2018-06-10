@@ -267,14 +267,32 @@ nav h1 {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
   position: relative;
 }
 #reviews-list li p {
-  margin: 0 0 10px;
+  padding: 0 20px;
 }
 #restaurant-hours td {
   color: #666;
+}
+.reviews-header {
+  width: 100%;
+  display: flex;
+  background-color: #252831;
+}
+.reviews-reviewer {
+  width: 50%;
+  color: #fff;
+}
+.reviews-date {
+  width: 50%;
+  text-align: right;
+  color: #fff;
+}
+.reviews-rating {
+  background-color: orange;
+  color: #fff;
+  padding: 5px;
 }
 /* ====================== Restaurant Details ====================== */
 @media screen and (min-width: 1200px) {
